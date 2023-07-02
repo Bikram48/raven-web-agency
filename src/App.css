@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-size: 10px;
+}
+
+body {
+    background-color: var(--body-background);
+}
+
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.section__margin {
+    margin: 4rem 6rem;
+}
+
