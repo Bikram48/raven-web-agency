@@ -4,6 +4,17 @@ import "./navbar.css";
 import { FaSearch } from "react-icons/fa";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
+const links = [
+  { label: "Home", url: "#" },
+  { label: "About", url: "#" },
+  { label: "Services", url: "#" },
+  { label: "Portfolio", url: "#" },
+  { label: "Testimonials", url: "#" },
+  { label: "News", url: "#" },
+  { label: "Contacts", url: "#" },
+  { label: "Elements", url: "#" },
+];
+
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   return (
@@ -12,30 +23,11 @@ export default function Navbar() {
         <img src={Logo} alt="" />
       </div>
       <div className="raven__navbar-links">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Services</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Testimonials</a>
-        </li>
-        <li>
-          <a href="#">News</a>
-        </li>
-        <li>
-          <a href="#">Contacts</a>
-        </li>
-        <li>
-          <a href="#">Elements</a>
-        </li>
+        {links.map((link, index) => (
+          <li key={index}>
+            <a href={link.url}>{link.label}</a>
+          </li>
+        ))}
         <li>
           <a href="#">
             <FaSearch />
@@ -54,30 +46,11 @@ export default function Navbar() {
           <div className="raven__navbar-mobile_toggle-links">
             {toggle && (
               <>
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Services</a>
-                </li>
-                <li>
-                  <a href="#">Portfolio</a>
-                </li>
-                <li>
-                  <a href="#">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#">News</a>
-                </li>
-                <li>
-                  <a href="#">Contacts</a>
-                </li>
-                <li>
-                  <a href="#">Elements</a>
-                </li>
+                {links.map((link, index) => (
+                  <li key={index}>
+                    <a href={link.url}>{link.label}</a>
+                  </li>
+                ))}
                 <li>
                   <a href="#">
                     <FaSearch />
