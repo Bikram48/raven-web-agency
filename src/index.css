@@ -5,10 +5,10 @@
     --secondary-color: white;
     --body-background: var(--primary-color);
     --text-color: var(--secondary-color);
+    --btn-background: #003ADB;
 
     --font-family: 'Fira Sans', sans-serif;
 
-    --fs-heading-main: 8.5rem;
-    --fs-heading: 4.8rem;
+    --fs-heading: 3.2rem;
     --fs-paragraph: 2rem;
 }

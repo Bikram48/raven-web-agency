@@ -1,0 +1,81 @@
+.raven__banner {
+    margin: 2em 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.8em;
+    padding: 1em;
+}
+
+.raven__banner-content_title {
+    font-size: 2.5rem;
+    line-height: 1.28;
+}
+
+.raven__banner-content_title,
+.raven__banner-content p {
+    margin-bottom: 1em;
+}
+
+.raven__banner-content p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.raven__banner-image img {
+    width: 100%;
+    border-top-left-radius: 90px;
+} 
+
+.raven__banner-content_btn button {
+    width: 142px;
+    height: 45px;
+    background-color: var(--btn-background);
+    outline: none;
+    border: 0;
+    color: var(--text-color);
+    padding: 8px;
+    border-radius: 30px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 900px) {
+    .raven__banner {
+        flex-direction: row;
+        column-gap: 4em;
+        margin-left: 6em;
+    }
+
+    .raven__banner-content {
+        flex: 1;
+    }
+
+    .raven__banner-image {
+        flex: 1;
+    }
+
+    .raven__banner-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .raven__banner-content_title {
+        font-size: var(--fs-heading);
+    }
+
+    .raven__banner-content p {
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .raven__banner {
+        padding: 0;
+    }
+
+}
+  
