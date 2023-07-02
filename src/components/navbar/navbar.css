@@ -11,6 +11,12 @@
     display: none;
 }
 
+.raven__navbar-links li,
+.raven__navbar-mobile_toggle-links li {
+    font-weight: 500;
+}
+
+
 .raven__navbar-mobile_links-toggle {
     position: relative;
 }
