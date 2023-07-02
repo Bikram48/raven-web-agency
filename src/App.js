@@ -12,7 +12,7 @@ import {
   Clients,
   Contact,
   Footer,
-} from "./components";
+} from "./components/index";
 
 export default function App() {
   return (
