@@ -1,0 +1,11 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as Banner } from "./banner/Banner";
+export { default as Purpose } from "./purpose/Purpose";
+export { default as Works } from "./works/Works";
+export { default as Achievement } from "./achievement/Achievement";
+export { default as Testimonials } from "./testimonials/Testimonials";
+export { default as Team } from "./team/Team";
+export { default as Blog } from "./blog/Blog";
+export { default as Clients } from "./clients/Clients";
+export { default as Contact } from "./contact/Contact";
+export { default as Footer } from "./footer/Footer";

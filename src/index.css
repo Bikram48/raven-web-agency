@@ -2,11 +2,9 @@
 
 :root {
     --primary-color: #0C1117;
-    --secondary-color: rgba(255,255,255,0.7);
-    --accent-color: white;
+    --secondary-color: white;
     --body-background: var(--primary-color);
     --text-color: var(--secondary-color);
-    --heading-color: var(--accent-color);
 
     --font-family: 'Fira Sans', sans-serif;
 
