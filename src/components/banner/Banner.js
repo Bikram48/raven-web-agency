@@ -7,7 +7,9 @@ export default function Banner() {
     <div className="raven__banner">
       <div className="raven__banner-content">
         <div className="raven__banner-content_title">
-          <h1>WE ARE DIGITAL AGENCY</h1>
+          <h1>
+            WE ARE <br></br>DIGITAL AGENCY
+          </h1>
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id
