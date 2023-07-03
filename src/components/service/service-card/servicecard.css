@@ -5,8 +5,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 2em;
-    /* flex-basis: calc(25% - 20px);
-    margin-right: 10px; */
+    flex-wrap: wrap;
 }
 
 .raven__service-card_content.card:nth-of-type(2) {
@@ -26,6 +25,7 @@
 }
 
 .raven__service-card_content-title {
+    font-weight: 800;
     text-transform: uppercase;
     font-size: 2.4rem;
 }
@@ -33,6 +33,7 @@
 .raven__service-card_content-info p {
     margin-bottom: 1.5em;
     font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 .raven__service-card_content-info p:last-child {
@@ -56,4 +57,50 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.raven__service-separate_card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.4em;
+    justify-content: center;
+}
+
+.raven__service-separate_card-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.32px;
+}
+
+.raven__service-separate_card_content-info p {
+    line-height: 1.4;
+}
+
+@media screen and (min-width: 800px)  and (max-width: 999px) {
+    .raven__service-card_content.card {
+        flex-basis: calc(33.33% - 20px);
+    }  
+}
+
+@media screen and (min-width: 1000px) {
+    .raven__service-card_content.card {
+        flex-basis: calc(25% - 20px);
+    }  
+}
+@media screen and (min-width: 800px) {
+    .raven__service-card_content.card {
+        margin-right: 10px;
+        flex-direction: row;
+        row-gap: 1em;
+    }
+
+    .raven__service-card_content-image {
+        margin-left: auto;
+    }
+
+    .raven__service-separate_card {
+        flex-basis: 25%;
+        margin-left: 3rem;
+    }
 }

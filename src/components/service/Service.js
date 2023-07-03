@@ -47,6 +47,20 @@ export default function Service() {
           contact="Contact Us"
           image={paint}
         />
+
+        <div className="raven__service-separate_card">
+          <div className="raven__service-separate_card-title">
+            <h2>Solution for your business</h2>
+          </div>
+
+          <div className="raven__service-separate_card_content-info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          </div>
+
+          <div className="raven__service-separate_card-btn">
+            <button type="button">Learn more</button>
+          </div>
+        </div>
       </div>
     </div>
   );
