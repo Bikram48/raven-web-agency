@@ -4,7 +4,7 @@ import {
   Navbar,
   Banner,
   Service,
-  Works,
+  Protfolio,
   Achievement,
   Testimonials,
   Team,
@@ -20,7 +20,7 @@ export default function App() {
       <Navbar />
       <Banner />
       <Service />
-      <Works />
+      <Protfolio />
       <Achievement />
       <Testimonials />
       <Team />
