@@ -3,7 +3,7 @@ import "./App.css";
 import {
   Navbar,
   Banner,
-  Purpose,
+  Service,
   Works,
   Achievement,
   Testimonials,
@@ -19,7 +19,7 @@ export default function App() {
     <>
       <Navbar />
       <Banner />
-      <Purpose />
+      <Service />
       <Works />
       <Achievement />
       <Testimonials />

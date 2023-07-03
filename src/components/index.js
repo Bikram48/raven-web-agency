@@ -1,6 +1,6 @@
 export { default as Navbar } from "./navbar/Navbar";
 export { default as Banner } from "./banner/Banner";
-export { default as Purpose } from "./purpose/Purpose";
+export { default as Service } from "./service/Service";
 export { default as Works } from "./works/Works";
 export { default as Achievement } from "./achievement/Achievement";
 export { default as Testimonials } from "./testimonials/Testimonials";
