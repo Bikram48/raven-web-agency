@@ -1,0 +1,10 @@
+.raven__service-title {
+    text-align: center;
+    font-size: var(--fs-heading);
+    margin-bottom: .6em;
+}
+
+.raven__service-cards {
+    display: flex;
+    flex-wrap: wrap;
+}

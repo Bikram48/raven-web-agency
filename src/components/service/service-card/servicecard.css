@@ -1,0 +1,59 @@
+.raven__service-card_content.card {
+    background-color: var(--card-background);
+    margin-bottom: 1.5em;
+    padding: 1.3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    /* flex-basis: calc(25% - 20px);
+    margin-right: 10px; */
+}
+
+.raven__service-card_content.card:nth-of-type(2) {
+    position: relative;
+    z-index: 1;
+}
+.raven__service-card_content.card:nth-of-type(2)::after {
+    content: "";
+    height: 98%;
+    width: 98%;
+    background-color: var(--btn-background);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;
+    z-index: -1;
+}
+
+.raven__service-card_content-title {
+    text-transform: uppercase;
+    font-size: 2.4rem;
+}
+
+.raven__service-card_content-info p {
+    margin-bottom: 1.5em;
+    font-size: 1.6rem;
+}
+
+.raven__service-card_content-info p:last-child {
+   text-decoration: underline;
+}
+
+.raven__service-card_content-image {
+    width: 80px;
+    height: 70px;
+    align-self: flex-end;
+    border-radius: 35px 0px 4px 4px;
+    background-color: var(--btn-background);
+    position: relative;
+}
+
+.raven__service-card_content-image img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

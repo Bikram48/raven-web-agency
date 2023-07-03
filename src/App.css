@@ -27,10 +27,15 @@ li {
 }
 
 .section__padding {
-    padding: 4rem 6rem;
+    padding: 2rem;
 }
 
 .section__margin {
     margin: 4rem 6rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
