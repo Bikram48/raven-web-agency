@@ -1,0 +1,7 @@
+@media screen and (min-width: 700px) {
+    .raven__blog-cards {
+        display: flex;
+        flex-direction: row;
+        column-gap: 1em;
+    }
+}
