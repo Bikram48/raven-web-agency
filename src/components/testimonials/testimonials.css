@@ -1,0 +1,29 @@
+.raven__testimonial-image img {
+    width: 100%;
+}
+
+.raven__testimonial-mobile-title {
+    margin: 1em 0;
+}
+
+.raven__testimonial-desktop_title {
+    display: none;
+}
+
+.raven__testimonial-content .author {
+    font-size: 2rem;
+    margin: .3em 0;
+}
+
+.raven__testimonial-content .job-title {
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+    color: #727272;
+    font-weight: 500;
+}
+
+.author__description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 300;
+}
