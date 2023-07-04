@@ -1,5 +1,39 @@
 .raven__portfolio-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+/* .raven__portfolio-content {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
     grid-gap: 21px;
+} 
+*/
+@media screen and (min-width: 600px) {
+    .raven__portfolio-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 21px;
+    }
 }
+
+@media screen and (min-width: 900px) {
+    .raven__portfolio-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/* @media (max-width: 768px) {
+    .raven__portfolio-content {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .raven__portfolio-content {
+      grid-template-columns: 1fr;
+    }
+  } */
+
+
