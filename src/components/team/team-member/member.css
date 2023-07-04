@@ -1,0 +1,70 @@
+.raven__team-ceo_description {
+    padding: 3rem;
+    background-color: var(--card-secondary-background);
+}
+
+.raven__team-ceo_description h4,
+.raven__team-ceo_description p {
+    text-align: center;
+}
+
+.raven__team-ceo_description h4 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: .6em 0;
+}
+
+.raven__team-ceo_description p.position {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 3.8em;
+}
+
+.raven__team-ceo_description p.description {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 4.8em;
+}
+
+.raven__team-image {
+    width: 100%;
+}
+
+.raven__team-image img {
+    width: 100%;
+}
+
+.social__icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.8em;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 600px) {
+    .raven__team-image {
+        flex-basis: 49%;
+    }
+
+    .raven__team-ceo_description {
+        flex-basis: 49%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .raven__team-image {
+        flex-basis: calc(25% - 1rem);
+    }
+
+    .raven__team-image img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .raven__team-ceo_description {
+        flex-basis: calc(25% );
+        height: 100%;
+    }
+}
