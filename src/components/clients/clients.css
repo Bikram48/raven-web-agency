@@ -1,0 +1,16 @@
+.raven__clients-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.raven__clients-images div {
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
