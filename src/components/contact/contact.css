@@ -1,0 +1,65 @@
+.input__field {
+    margin-bottom: 1.3em;
+}
+
+.input__field label {
+    font-size: 1.8rem;
+}
+
+.raven__contact-form {
+    margin-bottom: 2em;
+}
+
+.input__field input,
+.input__field textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #536A82;
+    border-radius: 4px;
+    color: #2E2E2E;
+    padding: 1em 1em 1em 0;
+    font-family: var(--font-family);
+    outline: none;
+}
+
+.raven__contact-info {
+    flex-direction: column;
+    row-gap: 2em;
+}
+
+.raven__contact-info {
+    color: #B6B6B6;
+    font-size: 1.6rem;
+}
+
+.raven__contact-info .header {
+    column-gap: .5em;
+}
+
+.raven__contact-info .header p {
+    font-size: 1.8rem;
+}
+
+.raven__contact-info img {
+    width: 24px;
+    height: 24px;
+}
+
+.raven__contact-info_mobile .numbers {
+    flex-direction: column;
+    row-gap: .5em;
+}
+
+.raven__contact-info_mobile .number-1,
+.raven__contact-info_mobile .number-2 {
+    column-gap: .5em;
+    align-items: center;
+}
+
+.raven__contact-info_mobile .numbers button {
+    width: 70px;
+    padding: .5em;
+    font-size: 1.3rem;
+    height: auto;
+}

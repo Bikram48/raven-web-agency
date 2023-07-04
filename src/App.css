@@ -57,6 +57,14 @@ button {
     margin: 4rem 6rem;
 }
 
+.d-flex {
+    display: flex;
+} 
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
