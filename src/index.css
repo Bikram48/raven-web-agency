@@ -7,9 +7,12 @@
     --text-color: var(--secondary-color);
     --btn-background: #003ADB;
     --card-background: #1B2837;
+    --card-secondary-background: #2B61F7;
 
     --font-family: 'Fira Sans', sans-serif;
 
     --fs-heading: 3.2rem;
     --fs-paragraph: 2rem;
+
+    --border-color: #ABC4E3;
 }

@@ -1,0 +1,12 @@
+.raven__achievement {
+    background-color: var(--card-secondary-background);
+}
+
+.raven__achievement-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2em;
+    column-gap: 1em;
+    align-items: center;
+    justify-content: space-between;
+}

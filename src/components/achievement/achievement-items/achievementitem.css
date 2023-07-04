@@ -1,0 +1,61 @@
+.raven__achievement-content {
+    flex-basis: calc(50% - 1em);
+}
+
+@media screen and (max-width: 899px) {
+    .raven__achievement-content:nth-child(odd) {
+        position: relative;
+    }
+    
+    .raven__achievement-content:nth-child(odd)::after {
+        content: "";
+        border: 1px solid var(--border-color);
+        position: absolute;
+        right: -10px;
+        top: 0;
+        height: 100%;
+    }
+
+    /* .raven__achievement-content:nth-child(odd):last-child::after {
+        border: none;
+    } */
+}
+
+.raven__achievement-content__number {
+    margin-bottom: .6em;
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: .48px;
+}
+
+.raven__achievement-content__text {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+
+@media screen and (min-width: 900px) {
+    .raven__achievement-content__number {
+        font-size: 3.2rem;
+    }
+    .raven__achievement-content {
+        flex-basis: calc(20% - 4em);
+    }
+    
+    .raven__achievement-content {
+        position: relative;
+    }
+    
+    .raven__achievement-content::after {
+        content: "";
+        border: 1px solid var(--border-color);
+        position: absolute;
+        right: -15px;
+        top: 0;
+        height: 100%;
+    }
+
+    .raven__achievement-content:last-child:after {
+        border: none;
+    }
+}
