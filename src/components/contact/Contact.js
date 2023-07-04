@@ -61,14 +61,14 @@ export default function Contact() {
               <img src={email} alt="" />
               <p>E-mail</p>
             </div>
-            <p>sample@example.com</p>
+            <p class="raven__contact-info_value">sample@example.com</p>
           </div>
           <div className="raven__contact-info_address d-flex flex-space-between">
             <div className="header d-flex">
               <img src={address} alt="" />
               <p>Address</p>
             </div>
-            <p>Kathmandu, Nepal</p>
+            <p class="raven__contact-info_value">Kathmandu, Nepal</p>
           </div>
         </div>
       </div>

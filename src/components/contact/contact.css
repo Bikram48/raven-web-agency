@@ -39,6 +39,7 @@
 
 .raven__contact-info .header p {
     font-size: 1.8rem;
+    color: white;
 }
 
 .raven__contact-info img {
@@ -62,4 +63,45 @@
     padding: .5em;
     font-size: 1.3rem;
     height: auto;
+}
+
+@media screen and (min-width: 900px) {
+    .raven__contact-title {
+        margin-bottom: 5em;
+    }
+
+    .raven__contact-body {
+        display: flex;
+        column-gap: 9rem;
+    }
+
+    .raven__contact-form {
+        flex-basis: calc(60% - 1rem);
+    }
+
+    .raven__contact-info {
+        flex-basis: calc(40% - 1rem);
+    }
+
+    .raven__contact-info .header {
+        column-gap: 1.5em;
+    }
+
+    .raven__contact-info_mobile .number-1,
+    .raven__contact-info_mobile .number-2 {
+        column-gap: 1.5em;
+    }
+
+    .raven__contact-info_mobile,
+    .raven__contact-info_email,
+    .raven__contact-info_address {
+        flex-direction: column;
+        row-gap: 1em;
+    }
+
+    .raven__contact-info_mobile .numbers,
+    .raven__contact-info_email .raven__contact-info_value,
+    .raven__contact-info_address .raven__contact-info_value {
+        margin-left: 3em;
+    }
 }
