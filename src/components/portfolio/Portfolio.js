@@ -5,7 +5,7 @@ import PortfolioItem from "./items/PortfolioItem";
 
 export default function Portfolio() {
   return (
-    <div className="raven__portfolio container section__padding">
+    <div className="raven__portfolio container section__padding" id="portfolio">
       <div className="raven__porfolio-title title__margin">
         <h3>Our Works</h3>
       </div>

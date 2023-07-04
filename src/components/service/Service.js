@@ -5,7 +5,7 @@ import { computer, tab, rectangle, diamond, bar, paint } from "./imports.js";
 
 export default function Service() {
   return (
-    <div className="raven__service container section__padding">
+    <div className="raven__service container section__padding" id="services">
       <div className="raven__service-title">
         <h3>What we do</h3>
       </div>

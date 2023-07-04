@@ -13,7 +13,7 @@ export default function Blog() {
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Blandit id fringilla turpis tempor enim. Vel tristique suspendisse eget sodales egestas. Donec duis lacus, odio velit",
   };
   return (
-    <div className="raven__blog container section__padding">
+    <div className="raven__blog container section__padding" id="news">
       <div className="raven__blog-title text__center title__margin">
         <h3>Blog</h3>
       </div>

@@ -4,7 +4,7 @@ import "./banner.css";
 
 export default function Banner() {
   return (
-    <div className="raven__banner">
+    <div className="raven__banner" id="about">
       <div className="raven__banner-content">
         <div className="raven__banner-content_title">
           <h1>

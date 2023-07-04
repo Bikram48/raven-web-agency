@@ -5,14 +5,14 @@ import { FaSearch } from "react-icons/fa";
 import { RiCloseLine, RiMenu3Line } from "react-icons/ri";
 
 const links = [
-  { label: "Home", url: "#" },
-  { label: "About", url: "#" },
-  { label: "Services", url: "#" },
-  { label: "Portfolio", url: "#" },
-  { label: "Testimonials", url: "#" },
-  { label: "News", url: "#" },
-  { label: "Contacts", url: "#" },
-  { label: "Elements", url: "#" },
+  { label: "Home", url: "#home" },
+  { label: "About", url: "#about" },
+  { label: "Services", url: "#services" },
+  { label: "Portfolio", url: "#portfolio" },
+  { label: "Testimonials", url: "#testimonial" },
+  { label: "News", url: "#news" },
+  { label: "Contacts", url: "#contact" },
+  { label: "Footer", url: "#footer" },
 ];
 
 export default function Navbar() {

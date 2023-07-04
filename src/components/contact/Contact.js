@@ -4,7 +4,7 @@ import { phone, email, address } from "./imports.js";
 
 export default function Contact() {
   return (
-    <div className="raven__contact section__padding container">
+    <div className="raven__contact section__padding container" id="contact">
       <div className="raven__contact-title text__center title__margin">
         <h3>Contact us</h3>
       </div>

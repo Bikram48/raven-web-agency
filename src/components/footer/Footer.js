@@ -5,7 +5,10 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="raven__footer container section__padding d-flex">
+    <div
+      className="raven__footer container section__padding d-flex"
+      id="footer"
+    >
       <div className="raver__footer-logo">
         <img src={logo} alt="" />
       </div>

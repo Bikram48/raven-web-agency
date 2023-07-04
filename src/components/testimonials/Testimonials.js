@@ -4,7 +4,10 @@ import author from "../../assets/author.png";
 
 export default function Testimonials() {
   return (
-    <div className="raven__testimonial section__padding container">
+    <div
+      className="raven__testimonial section__padding container"
+      id="testimonial"
+    >
       <div className="raven__testimonial-mobile-title">
         <h3>Testimonial</h3>
       </div>
