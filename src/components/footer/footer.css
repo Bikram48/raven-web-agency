@@ -1,0 +1,43 @@
+.raven__footer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 2em;
+}
+
+.raven__footer-links {
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 1em;
+   justify-content: center;
+}
+
+.raven__footer-links li {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.raven__footer-text {
+    color: #787878;
+    max-width: 700px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+.raven__footer-social_icons {
+    column-gap: 2em;
+}
+
+.raven__foter-copyright_message {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+}
+
+@media screen and (min-width: 900px) {
+    .raven__footer-links {
+        gap: 4em;
+    }
+}
