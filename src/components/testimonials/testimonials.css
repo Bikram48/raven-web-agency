@@ -26,4 +26,37 @@
     font-size: 1.6rem;
     line-height: 1.6;
     font-weight: 300;
+} 
+
+@media screen and (min-width: 900px) {
+    .raven__testimonial {
+        display: flex;
+        flex-direction: row;
+        column-gap: 3em;
+    }
+
+    .author__description {
+        font-size: 1.8rem;
+    }
+
+    .raven__testimonial-mobile-title {
+        display: none;
+    }
+
+    .raven__testimonial-desktop_title {
+        display: block;
+        margin: 1.5em 0;
+    }
+
+    .raven__testimonial-image {
+        flex-basis: 45%;
+    }
+
+    .raven__testimonial-image img {
+        border-radius: 4px 90px 4px 4px;;
+    }
+
+    .raven__testimonial-content {
+        flex-basis: 50%;
+    }
 }
