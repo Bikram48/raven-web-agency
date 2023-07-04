@@ -31,6 +31,10 @@ li {
     list-style-type: none;
 }
 
+.text__center {
+    text-align: center;
+}
+
 button {
     width: 142px;
     height: 45px;
