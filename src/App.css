@@ -17,6 +17,11 @@ body {
     font-family: var(--font-family);
 }
 
+h3 {
+    font-size: var(--fs-heading);
+    font-weight: 500;
+}
+
 a {
     text-decoration: none;
     color: var(--secondary-color);
@@ -53,9 +58,16 @@ button {
     margin: 0 auto;
 }
 
+.title__margin {
+    margin-bottom: .6em;
+}
 
 @media screen and (min-width: 900px) {
     .section__padding {
         padding: 6rem 2rem;
+    }
+
+    .title__margin {
+        margin-bottom: 1.5em;
     }
 }

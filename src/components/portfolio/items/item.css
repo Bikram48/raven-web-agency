@@ -1,0 +1,38 @@
+.raven__portfolio-content_image img {
+    width: 100%;
+    height: 100%;
+}
+
+.raven__portfolio-content_image {
+    height: 376px;
+}
+
+.raven__portfolio-content_image img {
+    object-fit: cover;
+}
+
+.raven__portfolio-content_image:nth-of-type(2) {
+    grid-column: 2/4;
+}
+
+.raven__portfolio-content_image:last-child {
+    grid-column: 3/5;
+}
+
+.raven__portfolio-content_message {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+    justify-content: center;
+}
+
+.raven__portfolio-content_message h3 {
+    font-size: 3.2rem;
+    font-weight: 700;
+    letter-spacing: .32px;
+}
+
+.raven__portfolio-content_message p {
+    font-weight: 300;
+    line-height: 1.3;
+}
