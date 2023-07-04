@@ -5,6 +5,7 @@
     --secondary-color: white;
     --body-background: var(--primary-color);
     --text-color: var(--secondary-color);
+    --text-secondary-color: #727272;
     --btn-background: #003ADB;
     --card-background: #1B2837;
     --card-secondary-background: #2B61F7;

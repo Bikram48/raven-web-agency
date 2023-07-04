@@ -11,7 +11,10 @@ export default function BlogCard({ image }) {
         <button>{category}</button>
       </div>
       <div className="raven__blog-card_body">
-        <p className="raven__blog-card_date">{date}</p>
+        <div className="raven__blog-card_body-header">
+          <p className="raven__blog-card_date">{date}</p>
+          <p className="raven__blog-card_id">1502</p>
+        </div>
         <p className="raven__blog-card_title">{title}</p>
         <p className="raven__blog-card_text">{content}</p>
       </div>
